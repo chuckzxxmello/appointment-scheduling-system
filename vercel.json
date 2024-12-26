@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/src/(.*)", // Matches any path starting with /src/
+      "source": "(.*)", // Matches any path starting with /src/
       "destination": "/404", 
       "statusCode": 307 // Temporary redirect
     }
