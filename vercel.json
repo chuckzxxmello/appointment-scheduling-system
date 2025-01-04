@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/pages/**/*",
+      "use": "@vercel/next"
+    }
+  ]
+}
